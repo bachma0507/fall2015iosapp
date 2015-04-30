@@ -59,7 +59,7 @@ extern int iNotificationCounter;
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     
-    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sunrise"]];
+    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sky"]];
     [tempImageView setFrame:self.tableView.frame];
     
     self.tableView.backgroundView = tempImageView;

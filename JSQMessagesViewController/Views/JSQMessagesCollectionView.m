@@ -34,6 +34,7 @@
 
 
 @implementation JSQMessagesCollectionView
+@dynamic dataSource, delegate, collectionViewLayout;
 
 #pragma mark - Initialization
 
