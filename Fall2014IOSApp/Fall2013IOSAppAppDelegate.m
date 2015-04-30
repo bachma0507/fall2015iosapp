@@ -209,11 +209,17 @@ int iNotificationCounter=0;
             UITabBar *tabBar = tabBarController.tabBar;
             //[tabBarController.tabBar setBackgroundColor:[UIColor blackColor]];
             //tabBarController.tabBar.translucent = NO;
+        
+        if ( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad ) /* Device is iPad */
+        {
+
             UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
             UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
             UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
             UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
             UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
+        
+        UITabBarItem *tabBarItem6 = [tabBar.items objectAtIndex:5];
         
         //
         //
@@ -238,7 +244,42 @@ int iNotificationCounter=0;
             tabBarItem5.title = @"Photo Gallery";
         
             
-
+        tabBarItem6.selectedImage = [[UIImage imageNamed:@"gallery_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+        tabBarItem6.image = [[UIImage imageNamed:@"gallery_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+        tabBarItem6.title = @"Photo Gallery";
+        }
+        else{
+            UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+            UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+            UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
+            UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+            UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
+            
+            
+            //
+            //
+            tabBarItem1.selectedImage = [[UIImage imageNamed:@"home_tab_icon_selected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem1.image = [[UIImage imageNamed:@"home_tab_icon_unselected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem1.title = @"Home";
+            
+            tabBarItem2.selectedImage = [[UIImage imageNamed:@"news_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem2.image = [[UIImage imageNamed:@"news_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem2.title = @"News & Alerts";
+            
+            tabBarItem3.selectedImage = [[UIImage imageNamed:@"social_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem3.image = [[UIImage imageNamed:@"social_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem3.title = @"Chat Rooms";
+            
+            tabBarItem4.selectedImage = [[UIImage imageNamed:@"mybicsi_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem4.image = [[UIImage imageNamed:@"mybicsi_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem4.title = @"My BICSI";
+            
+            tabBarItem5.selectedImage = [[UIImage imageNamed:@"gallery_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem5.image = [[UIImage imageNamed:@"gallery_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+            tabBarItem5.title = @"Photo Gallery";
+            
+            
+        }
         
     }
     
