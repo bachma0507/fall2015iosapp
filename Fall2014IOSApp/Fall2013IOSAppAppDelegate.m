@@ -210,16 +210,18 @@ int iNotificationCounter=0;
             //[tabBarController.tabBar setBackgroundColor:[UIColor blackColor]];
             //tabBarController.tabBar.translucent = NO;
         
+        
         if ( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad ) /* Device is iPad */
         {
-
+            
+            
             UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
             UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
             UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
             UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
             UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
         
-        UITabBarItem *tabBarItem6 = [tabBar.items objectAtIndex:5];
+        //UITabBarItem *tabBarItem6 = [tabBar.items objectAtIndex:5];
         
         //
         //
@@ -244,9 +246,9 @@ int iNotificationCounter=0;
             tabBarItem5.title = @"Photo Gallery";
         
             
-        tabBarItem6.selectedImage = [[UIImage imageNamed:@"gallery_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-        tabBarItem6.image = [[UIImage imageNamed:@"gallery_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-        tabBarItem6.title = @"Photo Gallery";
+//        tabBarItem6.selectedImage = [[UIImage imageNamed:@"gallery_tab_icon_selected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+//        tabBarItem6.image = [[UIImage imageNamed:@"gallery_tab_icon_unselected.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+//        tabBarItem6.title = @"Photo Gallery";
         }
         else{
             UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
@@ -574,7 +576,7 @@ int iNotificationCounter=0;
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^{
             
-            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/exhibitorsC15.php"];
+            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/exhibitorsF15.php"];
             NSData * data = [NSData dataWithContentsOfURL:url];
             
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -703,7 +705,8 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            //NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -840,7 +843,7 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -961,7 +964,7 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -1082,7 +1085,7 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -1203,7 +1206,7 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -1323,7 +1326,7 @@ int iNotificationCounter=0;
             
             //NSHTTPURLResponse *response = nil;
             
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
 
@@ -1449,7 +1452,7 @@ int iNotificationCounter=0;
             //NSHTTPURLResponse *response = nil;
             
             //NSURL *url = [NSURL URLWithString:@"http://www.speedyreference.com/bicsi/convertcsv1.json"];
-            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-CANADA-ON-0415"];
+            NSURL *url = [NSURL URLWithString:@"https://webservice.bicsi.org/json/reply/MobSession?SessionAltCd=CN-FALL-NV-0915"];
             //NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/bicsi/testtrunc3.json"];
             
             //if ([response statusCode] >= 200 && [response statusCode] < 300){//BEGIN IF RESPONSE STATUSCODE
@@ -1723,7 +1726,7 @@ int iNotificationCounter=0;
         #pragma mark - Create Sponsor Objects
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^{
             
-            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/sponsorsC15.php"];
+            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/sponsorsF15.php"];
             NSData * data = [NSData dataWithContentsOfURL:url];
             
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -1801,7 +1804,7 @@ int iNotificationCounter=0;
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^{
             
-            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/cscheduleC15.php"];
+            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/cscheduleF15.php"];
             NSData * data = [NSData dataWithContentsOfURL:url];
             
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -1878,7 +1881,7 @@ int iNotificationCounter=0;
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^{
             
-            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/ehscheduleC15.php"];
+            NSURL *url = [NSURL URLWithString:@"http://speedyreference.com/ehscheduleF15.php"];
             NSData * data = [NSData dataWithContentsOfURL:url];
             
             dispatch_async(dispatch_get_main_queue(), ^{

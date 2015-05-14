@@ -5,14 +5,14 @@
       "idiom" : "iphone",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Canada_2015_splash_640x960.png",
+      "filename" : "splash-screen-640x960.png",
       "scale" : "2x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "Canada_2015_splash_640x1136.png",
+      "filename" : "splash-screen-640x1136.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -22,7 +22,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Canada_2015_splash_768x1024.png",
+      "filename" : "splash-screen-768x1024.png",
       "scale" : "1x"
     },
     {
@@ -37,7 +37,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Canada_2015_splash_1536x2048.png",
+      "filename" : "splash-screen-1536x2048.png",
       "scale" : "2x"
     },
     {
@@ -51,21 +51,21 @@
       "orientation" : "portrait",
       "idiom" : "iphone",
       "extent" : "full-screen",
-      "filename" : "Canada_2015_splash_320x480.png",
+      "filename" : "splash-screen-320x480.png",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
       "extent" : "full-screen",
-      "filename" : "Canada_2015_splash_640x960-1.png",
+      "filename" : "splash-screen-640x960-1.png",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
       "extent" : "full-screen",
-      "filename" : "Canada_2015_splash_640x1136-1.png",
+      "filename" : "splash-screen-640x1136-1.png",
       "subtype" : "retina4",
       "scale" : "2x"
     },

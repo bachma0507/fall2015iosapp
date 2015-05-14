@@ -100,8 +100,8 @@
     
     
     if (!myResults || !myResults.count) {
-        NSString *message = @"There seems to have been an error updating data. Please go back to the Home screen and press the Update Data button at the bottom of the screen.";
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Data Update Error"
+        NSString *message = @"Either there is no data to display or an error updating data has occurred. Please go back to the Home screen and press the Update Data button at the bottom of the screen. If this error occurs after pressing the Update Data Button, then there is no data to display.";
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"No Data to Display"
                                                            message:message
                                                           delegate:self
                                                  cancelButtonTitle:@"Ok"
@@ -264,7 +264,7 @@
     
     SessionsMainViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    cell.backgroundColor = [UIColor colorWithRed:166/255.0 green:8/255.0 blue:33/255.0 alpha:1.0];
+    cell.backgroundColor = [UIColor colorWithRed:247/255.0 green:148/255.0 blue:30/255.0 alpha:1.0];
     
     if (!cell)
     {
@@ -293,7 +293,7 @@
         }
         else{
             
-            cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            cell.textLabel.textColor = [UIColor colorWithRed:30/255.0 green:37/255.0 blue:89/255.0 alpha:1.0];
             
             UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
             
@@ -354,7 +354,7 @@
         }
         else{
             
-            cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:174/255.0 blue:52/255.0 alpha:1.0];
+            cell.textLabel.textColor = [UIColor colorWithRed:30/255.0 green:37/255.0 blue:89/255.0 alpha:1.0];
             
             UIImage * myImage2 = [UIImage imageNamed:@"transparent.png"];
             

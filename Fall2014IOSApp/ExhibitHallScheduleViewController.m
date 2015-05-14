@@ -97,8 +97,8 @@
     NSArray *myResults = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
     
     if (!myResults || !myResults.count) {
-        NSString *message = @"There seems to have been an error updating data. Please go back to the Home screen and press the Update Data button at the bottom of the screen.";
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Data Update Error"
+        NSString *message = @"Either there is no data to display or an error updating data has occurred. Please go back to the Home screen and press the Update Data button at the bottom of the screen. If this error occurs after pressing the Update Data Button, then there is no data to display.";
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"No Data to Display"
                                                            message:message
                                                           delegate:self
                                                  cancelButtonTitle:@"Ok"

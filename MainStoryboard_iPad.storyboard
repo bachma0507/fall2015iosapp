@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xsZ-21-97U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="xsZ-21-97U">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Notifications-->
@@ -134,7 +134,6 @@
                         <segue destination="qxI-TJ-rwd" kind="relationship" relationship="viewControllers" id="6H4-vi-H44"/>
                         <segue destination="bwS-LC-9Qw" kind="relationship" relationship="viewControllers" id="jaA-nA-gQf"/>
                         <segue destination="KbC-rB-dbg" kind="relationship" relationship="viewControllers" id="IUP-fd-LYH"/>
-                        <segue destination="bLO-YJ-JId" kind="relationship" relationship="viewControllers" id="BVp-wP-aQ5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4b-Na-k6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -580,7 +579,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunrise.png" id="iea-HQ-FEu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sky.png" id="iea-HQ-FEu">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -615,7 +614,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="epH-4l-obW">
                                 <rect key="frame" x="43" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="conference_schedule_C15-ipad-test">
+                                <state key="normal" image="Conference-scheduleF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -653,7 +652,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tAo-ch-0kC">
                                 <rect key="frame" x="320" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="SpeakersCan15-ipad-test">
+                                <state key="normal" image="SpeakersF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -667,7 +666,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Sk9-84-A9Z">
                                 <rect key="frame" x="599" y="79" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="exhibit_hall_schedule_C15-ipad-test">
+                                <state key="normal" image="Exhibit-hall-scheduleF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -681,7 +680,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6B9-cQ-T41">
                                 <rect key="frame" x="47" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="sponsors_C15-ipad-test">
+                                <state key="normal" image="sponsors_F15-ipad-test">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -695,7 +694,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sEK-PO-uyY">
                                 <rect key="frame" x="599" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="exhibitors_C15-ipad-test">
+                                <state key="normal" image="Exhibit-hall-scheduleF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -715,7 +714,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b5J-3R-amJ">
                                 <rect key="frame" x="324" y="293" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="concurrent_sessions_C15-ipad-test">
+                                <state key="normal" image="Concurrent-sessionsF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -735,7 +734,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K5I-51-Jdh">
                                 <rect key="frame" x="324" y="512" width="120" height="122"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="my_session_notes_C15-ipad-test">
+                                <state key="normal" image="My-session-notesF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -755,7 +754,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fgY-8q-MTS">
                                 <rect key="frame" x="599" y="512" width="120" height="121"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="my_schedule_C15-ipad-test">
+                                <state key="normal" image="My-scheduleF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -835,7 +834,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mew-uY-Hs8">
                                 <rect key="frame" x="47" y="512" width="120" height="120"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="my_favorite_exhibitors_C15-ipad-test">
+                                <state key="normal" image="My-favorite-exhibitorsF15">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1317,7 +1316,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="124" id="qJx-1C-A2L" customClass="AllNotesCell">
-                                <rect key="frame" x="0.0" y="86" width="768" height="124"/>
+                                <rect key="frame" x="0.0" y="22" width="768" height="124"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qJx-1C-A2L" id="grX-4E-slX">
                                     <rect key="frame" x="0.0" y="0.0" width="768" height="124"/>
@@ -2192,7 +2191,7 @@
                                 </searchBar>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ExhibitorsCell" textLabel="bl2-zb-Bc8" detailTextLabel="B1b-bH-Oem" rowHeight="74" style="IBUITableViewCellStyleSubtitle" id="oTq-Hi-hgL" customClass="ExhibitorViewCell">
-                                        <rect key="frame" x="0.0" y="66" width="768" height="74"/>
+                                        <rect key="frame" x="0.0" y="130" width="768" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oTq-Hi-hgL" id="fxJ-0U-8Ac">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="73"/>
@@ -2865,79 +2864,6 @@
             </objects>
             <point key="canvasLocation" x="3494" y="-329"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="6BN-fn-VHT">
-            <objects>
-                <viewController id="msG-DH-Mtg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uJA-Wl-ojA">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sac-wN-fa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4657" y="-3477"/>
-        </scene>
-        <!--Root View Controller-->
-        <scene sceneID="Mip-aB-gbz">
-            <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="nP8-AF-ncj" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zhN-7G-eeO">
-                        <rect key="frame" x="0.0" y="0.0" width="308" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wEt-17-V5H">
-                                <rect key="frame" x="0.0" y="86" width="308" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wEt-17-V5H" id="Ns9-hv-6TG">
-                                    <rect key="frame" x="0.0" y="0.0" width="308" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="nP8-AF-ncj" id="IOS-MH-GPi"/>
-                            <outlet property="delegate" destination="nP8-AF-ncj" id="1np-Lt-rIB"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="yOo-vn-7ko"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AaO-5H-33C" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4359" y="-4561"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="y5L-RR-B5P">
-            <objects>
-                <navigationController id="JmN-6R-uN4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ocb-AN-exs">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="nP8-AF-ncj" kind="relationship" relationship="rootViewController" id="8qi-I2-gEw"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cgY-Zm-SpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4887" y="-4561"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="S5y-HV-3bC">
-            <objects>
-                <splitViewController id="bLO-YJ-JId" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="LdF-au-vDX"/>
-                    <connections>
-                        <segue destination="JmN-6R-uN4" kind="relationship" relationship="masterViewController" id="i3D-Jq-2nt"/>
-                        <segue destination="msG-DH-Mtg" kind="relationship" relationship="detailViewController" id="wX4-7e-lWM"/>
-                    </connections>
-                </splitViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rNq-W8-fqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5645" y="-4017"/>
-        </scene>
         <!--Item-->
         <scene sceneID="WIb-0O-kyD">
             <objects>
@@ -3456,7 +3382,13 @@
     </scenes>
     <resources>
         <image name="C15_exhibithall_floorplan_icon_ipad2.png" width="446" height="446"/>
-        <image name="SpeakersCan15-ipad-test" width="240" height="240"/>
+        <image name="Concurrent-sessionsF15" width="320" height="320"/>
+        <image name="Conference-scheduleF15" width="320" height="320"/>
+        <image name="Exhibit-hall-scheduleF15" width="320" height="320"/>
+        <image name="My-favorite-exhibitorsF15" width="320" height="320"/>
+        <image name="My-scheduleF15" width="320" height="320"/>
+        <image name="My-session-notesF15" width="320" height="320"/>
+        <image name="SpeakersF15" width="320" height="320"/>
         <image name="backbutton-default.png" width="50" height="30"/>
         <image name="backbutton.png" width="50" height="30"/>
         <image name="button-orange-pressed.png" width="143" height="41"/>
@@ -3464,25 +3396,19 @@
         <image name="cec_background_ipad.png" width="768" height="1024"/>
         <image name="comm_meetings_icon_ipad.png" width="120" height="120"/>
         <image name="committee_meetings_C15-ipad-test" width="240" height="240"/>
-        <image name="concurrent_sessions_C15-ipad-test" width="240" height="240"/>
-        <image name="conference_schedule_C15-ipad-test" width="240" height="240"/>
         <image name="contactus_background_ipad.png" width="768" height="1024"/>
         <image name="createuser_button.png" width="111" height="27"/>
         <image name="createuser_button_ipad.png" width="224" height="66"/>
-        <image name="exhibit_hall_schedule_C15-ipad-test" width="240" height="240"/>
-        <image name="exhibitors_C15-ipad-test" width="240" height="240"/>
         <image name="facebook_button.png" width="111" height="27"/>
         <image name="facebook_button_ipad.png" width="224" height="66"/>
         <image name="ffloor_maps_C15-ipad-test" width="240" height="240"/>
         <image name="find_area_activities_C15-ipad-test" width="240" height="240"/>
-        <image name="my_favorite_exhibitors_C15-ipad-test" width="240" height="240"/>
-        <image name="my_schedule_C15-ipad-test" width="240" height="240"/>
-        <image name="my_session_notes_C15-ipad-test" width="240" height="240"/>
         <image name="navigation-btn-menu-ipad.png" width="50" height="35"/>
         <image name="presentation_background_ipad.png" width="768" height="1024"/>
         <image name="reload30x30.png" width="30" height="30"/>
         <image name="scenery5-ipad.png" width="768" height="1024"/>
-        <image name="sponsors_C15-ipad-test" width="240" height="240"/>
+        <image name="sky.png" width="1024" height="768"/>
+        <image name="sponsors_F15-ipad-test" width="320" height="320"/>
         <image name="sunrise.png" width="1024" height="768"/>
         <image name="surveys_background-ipad.png" width="768" height="1024"/>
         <image name="training_background_ipad.png" width="768" height="1024"/>

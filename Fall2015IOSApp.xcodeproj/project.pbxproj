@@ -162,6 +162,8 @@
 		4C63591719913FA000AE4D9B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C63591619913FA000AE4D9B /* KeychainItemWrapper.m */; };
 		4C63591A1991500500AE4D9B /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6359191991500500AE4D9B /* Functions.m */; };
 		4C6456C818EC95280011D002 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6456C718EC95280011D002 /* CoreBluetooth.framework */; };
+		4C657AB41AF2A5D100A8A166 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C657AB31AF2A5D100A8A166 /* DetailViewController.m */; };
+		4C657AB71AF2A5E400A8A166 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C657AB61AF2A5E400A8A166 /* MasterViewController.m */; };
 		4C66AB15179A2DE0001BD035 /* AgendaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66AB14179A2DE0001BD035 /* AgendaCell.m */; };
 		4C66AB18179A2DFF001BD035 /* AgendaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66AB17179A2DFF001BD035 /* AgendaTableViewController.m */; };
 		4C68386818A75B4A00CB650C /* bicsi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C68386618A75B4A00CB650C /* bicsi.xcdatamodeld */; };
@@ -816,6 +818,10 @@
 		4C6359181991500500AE4D9B /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
 		4C6359191991500500AE4D9B /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
 		4C6456C718EC95280011D002 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4C657AB21AF2A5D100A8A166 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4C657AB31AF2A5D100A8A166 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4C657AB51AF2A5E400A8A166 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4C657AB61AF2A5E400A8A166 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		4C66AB13179A2DE0001BD035 /* AgendaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaCell.h; sourceTree = "<group>"; };
 		4C66AB14179A2DE0001BD035 /* AgendaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaCell.m; sourceTree = "<group>"; };
 		4C66AB16179A2DFF001BD035 /* AgendaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaTableViewController.h; sourceTree = "<group>"; };
@@ -1597,6 +1603,7 @@
 		4C2D69FE174541100053BCC0 /* Fall2014IOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C657AA81AF29E6200A8A166 /* splitview */,
 				4CB2EFC41A3F948C0066979B /* SegmentControlSchedules */,
 				4CCB78DD1843B65700D9D1C6 /* CEC */,
 				4C9B1DA319E341F3007E0F51 /* Chat */,
@@ -1935,6 +1942,17 @@
 				4C4A456B18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a */,
 			);
 			path = CrittercismSDK;
+			sourceTree = "<group>";
+		};
+		4C657AA81AF29E6200A8A166 /* splitview */ = {
+			isa = PBXGroup;
+			children = (
+				4C657AB21AF2A5D100A8A166 /* DetailViewController.h */,
+				4C657AB31AF2A5D100A8A166 /* DetailViewController.m */,
+				4C657AB51AF2A5E400A8A166 /* MasterViewController.h */,
+				4C657AB61AF2A5E400A8A166 /* MasterViewController.m */,
+			);
+			name = splitview;
 			sourceTree = "<group>";
 		};
 		4C894E2818AD548800001623 /* hotelWebview */ = {
@@ -3465,6 +3483,7 @@
 				4C088C59177F667500CFBC96 /* MagicalImportFunctions.m in Sources */,
 				4CC05AA5180C76DE0082A141 /* IpadLoginViewController.m in Sources */,
 				4CD8E14C193E581C00A4326C /* SurveyViewController.m in Sources */,
+				4C657AB41AF2A5D100A8A166 /* DetailViewController.m in Sources */,
 				4CCFD9751A016BF400464E3D /* SessionsMainViewCell.m in Sources */,
 				4C088C5A177F667500CFBC96 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
 				4C088C5B177F667500CFBC96 /* NSEntityDescription+MagicalDataImport.m in Sources */,
@@ -3527,6 +3546,7 @@
 				4C943183178E61160057CEE0 /* PresentationsViewController.m in Sources */,
 				4CE1B36F178F13F7006EF171 /* Session2ViewController.m in Sources */,
 				4CD8E0791937E42F00A4326C /* NSURL+Base.m in Sources */,
+				4C657AB71AF2A5E400A8A166 /* MasterViewController.m in Sources */,
 				4CE1B37A178FA614006EF171 /* Sessions.m in Sources */,
 				4C9B1E1619E34387007E0F51 /* JSQMessagesKeyboardController.m in Sources */,
 				4CE1B37F17904B57006EF171 /* SessionsMainViewController.m in Sources */,
