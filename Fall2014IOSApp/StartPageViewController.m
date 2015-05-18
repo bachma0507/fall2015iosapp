@@ -594,6 +594,7 @@
                 
                 // Email Subject
                 NSString *emailTitle = emailNoteSubject;
+                
                 // Email Content
                 NSString *messageBody = emailNoteBody;
                 // To address
