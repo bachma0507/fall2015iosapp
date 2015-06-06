@@ -93,11 +93,11 @@
             
             
             
-            NSString *post =[[NSString alloc] initWithFormat:@"sess=CN-CANADA-ON-0415&custcd=%@",[self.txtUsername text]];
+            NSString *post =[[NSString alloc] initWithFormat:@"sess=CN-FALL-NV-0915&custcd=%@",[self.txtUsername text]];
             
             NSLog(@"PostData: %@",post);
             
-            NSString * webURL = [[NSString alloc] initWithFormat:@"https://webservice.bicsi.org/json/reply/MobFunctions?sess=CN-CANADA-ON-0415&custcd=%@", [self.txtUsername text]];
+            NSString * webURL = [[NSString alloc] initWithFormat:@"https://webservice.bicsi.org/json/reply/MobFunctions?sess=sess=CN-FALL-NV-0915&custcd=%@", [self.txtUsername text]];
             
             
             NSURL *url=[NSURL URLWithString:webURL];
