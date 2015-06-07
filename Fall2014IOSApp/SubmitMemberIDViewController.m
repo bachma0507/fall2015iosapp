@@ -97,7 +97,7 @@
             
             NSLog(@"PostData: %@",post);
             
-            NSString * webURL = [[NSString alloc] initWithFormat:@"https://webservice.bicsi.org/json/reply/MobFunctions?sess=sess=CN-FALL-NV-0915&custcd=%@", [self.txtUsername text]];
+            NSString * webURL = [[NSString alloc] initWithFormat:@"https://webservice.bicsi.org/json/reply/MobFunctions?sess=CN-FALL-NV-0915&custcd=%@", [self.txtUsername text]];
             
             
             NSURL *url=[NSURL URLWithString:webURL];
